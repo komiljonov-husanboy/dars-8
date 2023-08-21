@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+.menu__section{
+    width: 1366px;
+    height: 768px;
+margin-left: 90px;
+    background-image: url(../img/coffee_image.png);
+}
+
+
+.menu__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.menu__item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none
+}
+
+.menu__list{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.menu__item{
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.menu__item a{
+    font-weight: 500;
+text-decoration-line: none;
+color: white;
+}
+
+
+.menu__list_item{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 280px;
+}
+
+
+.menu__items{
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 48px;
+    margin-left: 60px;
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+margin-bottom: 10px;  
+
+}
+
+
+.menu__items a{
+    color: black;
+    font-weight: 500;
+    text-decoration-line: none;
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+        
+}
+
+.menu__itemm{
+margin-top: 20px;
+list-style-type: none;
+
+}
+.menu__itemm a{
+    font-weight: 500;
+    text-decoration-line: none;
+    color: white;
+}
+
+.main__page{
+    margin-top: 23px;
+}
+
+
+.main__h1{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 80px 0;
+
+}
+.main__info{
+    margin-top: 20px;
+    width: 500px;
+    color: #FFF;
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+/* line-height: 34px; */
+}
+
+.main__button{
+    margin-top: 20px;
+    border: none;
+    width: 134px;
+height: 48px;
+    border-radius: 24px;
+background: #F9C06A;
+box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+}
+
+.coffee__list{
+width: 50%;
+justify-content: center;
+align-items: center;
+margin-top: 130px;
+margin-left: 100px;
+}
+
+.img{
+    width: 680px;
+    height: 476px;
+    
+}
+
+.coffee__section{
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFEFC;
+    background-image: url(../img/left_image.png);
+    background-repeat: no-repeat;
+    background-position: left top 310px ;
+}
+
+.coffe__title{
+    color: var(--coffee, #603809);
+font-family: Playfair Display;
+font-size: 54px;
+font-weight: 700;
+}
+
+.coffee__info{
+    width: 585px;
+color: #707070;
+font-family: Playfair Display;
+font-size: 20px;
+font-weight: 400;
+margin-top: 29px;
+}
+
+.coffee__button{
+    width: 134px;
+height: 48px;
+border-radius: 24px;
+background: #F9C06A;
+box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+border: none;
+margin-top: 29px;
+}
+
+.enjoy__section{
+    /* margin-top: 50px; */
+ margin: 0 auto;
+}
+.enjoy__h1{
+    text-align: center;
+color: var(--coffee, #603809);
+font-family: Playfair Display;
+font-size: 54px;
+font-weight: 700;
+margin-left: 100px;
+}
+
+
+.enjoy__p{
+    
+    width: 980px;
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 32px;
+}
+
+
+.enjoy__box{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.enjoy__inbox{
+    margin-left: 20px;
+    width: 280px;
+height: 364px;
+flex-shrink: 0;
+border: 1px solid rgba(249, 192, 106, 0.42);
+background: #FFF9F1;
+text-align: center;
+}
+
+
+.enjoy__inbox h2{
+
+    margin-top: 6px;
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.enjoy__inbox p{
+
+    margin-top: 6px;
+    color: #1E1E1E;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.enjoy__inbox h3{
+
+    margin-top: 6px;
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.enjoy__inbox button{
+    margin-top: 28px;
+border: none;
+    width: 134px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
